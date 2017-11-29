@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Route, withRouter, Switch} from 'react-router-dom';
 import './bulma-0.6.1/css/bulma.css';
 import './font-awesome-4.7.0/css/font-awesome.css';
+import Logo from './Logomakr_8hRdrI.png'
 
 class App extends Component {
   render() {
@@ -9,8 +10,8 @@ class App extends Component {
       <div className="App">
         <header class="navbar is-transparent">
           <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
+            <a class="navbar-item" href="#">
+              <img src={Logo} alt="logo" width="150" height="40"/>
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
               <span></span>
